@@ -1,4 +1,4 @@
-/*Code to count the number of vowels consonants and spaces*/
+/*Program to count the number of vowels consonants and spaces*/
 %{
 	#include <stdio.h>
 	int v = 0;
