@@ -1,3 +1,4 @@
+/*Program to count the number of the positive and negative integers and positive and negative fractions*/
 %{
 	#include <stdio.h>
 	int posInt = 0 , negInt = 0 , posFrac = 0 , negFrac = 0 ;

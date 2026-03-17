@@ -1,3 +1,4 @@
+/*program to count the number of characters words phrases and line from the input file*/
 %{
 	#include <stdio.h>
 	int c=0 , w = 0, s = 0, l = 0 ;
