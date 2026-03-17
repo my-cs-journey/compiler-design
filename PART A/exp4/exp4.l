@@ -1,3 +1,4 @@
+/*Program to count the number of comment lines in a given program also eliminate them and copy the c program to a separate file*/
 %{
 	#include <stdio.h>
 	int count = 0;
