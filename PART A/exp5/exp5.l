@@ -1,17 +1,4 @@
-/*Program to count the number of comment lines in a given program also eliminate them and copy the C program to a separate file */
-%{
-	#include <stdio.h>
-	int cnt = 0;
-%}
-%s COMMENT
-%%
-"//".* {cnt++;}
-"/*" {BEGIN COMMENT;}
-<COMMENT> "*/" {BEGIN 0 ; cnt++;}
-<COMMENT> \n {cnt++;}
-<COMMMENT>. {;}
-.|\n {fprintf(yyout,"%s",yytext);}
-%%
+/* Program to count the number of ‘scanf’ and ‘printf’ statements in a C program. Replace them with ‘readf’ and ‘writef’ statements respectively */
 %{
 	#include <stdio.h>
 	int scount = 0;
