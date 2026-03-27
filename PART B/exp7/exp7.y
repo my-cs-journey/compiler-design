@@ -1,4 +1,4 @@
-/* Program to recognize the grammar (a^nb, n>=10) */
+/* Program to recognize the string a^nb (n>=10) */
 
 %{
 	#include <stdio.h>
