@@ -40,12 +40,12 @@ int main(){
 		printf("It is a valid Expression:\n");
 		printf("number of operands: %d\n",nopnd);
 		printf("The operands are:\n");
-		for(int k = 0;k > i ;k++){
+		for(int k = 0;k < i ;k++){
 			printf("%s\n",opnd[k]);
 		}
 		printf("number of operators: %d\n",noprt);
 		printf("The operators are:\n");
-		for(int k = 0;k > i ;k++){
+		for(int k = 0;k < i ;k++){
 			printf("%s\n",oprt[k]);
 		}
 	}
